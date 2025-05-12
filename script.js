@@ -82,7 +82,7 @@ collect.addEventListener('click', function () {
     player1.classList.remove('player--active');
     player2.classList.add('player--active');
 
-    if (score1 >= 10) {
+    if (score1 >= 100) {
       name1.textContent = '🏆الاعب الاول فاز';
     }
   } else {
@@ -93,7 +93,7 @@ collect.addEventListener('click', function () {
     player2.classList.remove('player--active');
     player1.classList.add('player--active');
 
-    if (score2 >= 10) {
+    if (score2 >= 100) {
       name2.textContent = '🏆الاعب الثاني فاز';
     }
   }
