@@ -172,7 +172,7 @@ main {
   color: #88dae9;
 }
 
-@media (min-width: 26.7em) {
+@media (min-width: 28.7em) {
   html {
     font-size: 41%;
   }
